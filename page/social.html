@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Social Feed | EduPionir</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="brand">EduPionir</div>
+        <a href="dashboard.html">Kembali</a>
+    </nav>
+
+    <main class="container">
+        <h2>Kabar Teman 💬</h2>
+        <div class="card">
+            <textarea placeholder="Apa yang kamu pelajari hari ini?" rows="3"></textarea>
+            <button onclick="kirimPostingan()">Bagikan</button>
+        </div>
+
+        <div id="feedList">
+            <div class="card post">
+                <strong>@Budi_Dev</strong>
+                <p>Hari ini belajar Flexbox, seru banget!</p>
+                <small>2 menit yang lalu</small>
+            </div>
+        </div>
+    </main>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>
