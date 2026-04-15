@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Kursus Saya | EduPionir</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="brand">EduPionir</div>
+        <a href="dashboard.html">Kembali</a>
+    </nav>
+
+    <main class="container">
+        <h2>Daftar Kursus 📚</h2>
+        
+        <div class="card">
+            <h3>Punya PIN Akses?</h3>
+            <input type="text" id="pinInput" placeholder="Masukkan 6 digit PIN">
+            <button onclick="cekPinKursus()">Buka Materi Premium</button>
+        </div>
+
+        <div class="course-list">
+            <article class="card">
+                <h4>Web Dev Dasar</h4>
+                <p>Belajar bikin website dari nol.</p>
+                <button>Mulai Belajar</button>
+            </article>
+
+            <article class="card" style="opacity: 0.7;">
+                <h4>Javascript Pro 🔒</h4>
+                <p>Materi terkunci. Masukkan PIN untuk akses.</p>
+                <button disabled>Terkunci</button>
+            </article>
+        </div>
+    </main>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>
